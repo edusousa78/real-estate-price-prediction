@@ -1,0 +1,42 @@
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Bases originais e processadas
+data/raw/
+data/interim/
+data/processed/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak

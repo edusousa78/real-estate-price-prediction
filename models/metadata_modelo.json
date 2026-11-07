@@ -1,0 +1,45 @@
+{
+  "projeto": "Real Estate Price Prediction",
+  "modelo": "HistGradientBoostingRegressor",
+  "versao": "1.0.0",
+  "data_exportacao_utc": "2026-11-05T12:51:11.169926+00:00",
+  "variavel_alvo": "Valor de Transação (declarado pelo contribuinte)",
+  "variaveis_entrada": [
+    "Área Construída (m2)",
+    "Fração Ideal",
+    "Padrão (IPTU)",
+    "cep_3"
+  ],
+  "variaveis_numericas": [
+    "Área Construída (m2)",
+    "Fração Ideal"
+  ],
+  "variaveis_categoricas": [
+    "Padrão (IPTU)",
+    "cep_3"
+  ],
+  "periodo_treinamento": "Janeiro a setembro de 2025",
+  "periodo_validacao": "Outubro de 2025",
+  "periodo_teste": "Novembro e dezembro de 2025",
+  "metricas_teste": {
+    "registros": 10105,
+    "mae": 194276.28860071456,
+    "rmse": 407130.3940483388,
+    "wape_percentual": 26.866747130115513
+  },
+  "ambiente": {
+    "python": "3.13.11",
+    "scikit_learn": "1.9.1",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "joblib": "1.6.0"
+  },
+  "observacoes": [
+    "Estimativa do valor declarado na transacao.",
+    "Area construida cadastral nao equivale necessariamente a area privativa.",
+    "Fracao ideal e um atributo cadastral.",
+    "O prefixo CEP possui tres digitos.",
+    "Modelo avaliado em transacoes do municipio de Sao Paulo.",
+    "Nao substitui avaliacao imobiliaria profissional."
+  ]
+}
