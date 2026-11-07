@@ -113,3 +113,9 @@ Python, pandas, NumPy, scikit-learn, Jupyter Notebook, Streamlit, joblib e pytes
 [GitHub](https://github.com/edusousa78) · [LinkedIn](https://www.linkedin.com/in/luissousa78)
 
 Projeto integrante de um portfólio de Ciência de Dados.
+
+## Aplicação online
+
+Acesse a aplicação de previsão de preços imobiliários:
+
+https://real-estate-price-prediction2.streamlit.app/
